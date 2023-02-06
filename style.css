@@ -1,0 +1,283 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;700&display=swap');
+body{
+    margin: 0;
+    font-family: 'Rubik', sans-serif;
+    font-size: 16px;
+}
+
+.background{
+    width: 400px;
+    height: 650px;
+    background: hsl(264,100%,61%);
+    background: linear-gradient(340deg,hsl(264,100%,61%) 50%, hsl(293,100%,63%) 100%);
+    border-bottom-left-radius: 180px;
+    border-bottom-right-radius: 180px;
+    position: relative;
+}
+
+.mobile{
+    width: 260px;
+    height: 500px;
+    box-shadow: 1px 2px 12px 0px rgba(0,0,0,0.75);
+    position: absolute;
+    top: 120px;
+    left: 340px;
+    background-color: white;
+    border-radius: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.screen{
+    width: 91%;
+    height: 95%;
+    background-color: hsl(206, 6%, 79%);
+    border-radius: 30px;
+    margin: 0;
+    overflow: hidden;
+}
+.chd1{
+    display: flex;
+    width: 100%;
+    height: 15%;
+    background: hsl(264,100%,61%);
+    background: linear-gradient(90deg,hsl(264,100%,61%) 40%, hsl(293,100%,63%) 100%);
+    position: relative;
+}
+.chd1-top{
+    position: absolute;
+    width: 150px;
+    height: 20px;
+    background-color: white;
+    left: 50px;
+    top: -8px;
+    border-radius: 10px;
+}
+.chd1-chd1{
+    display: flex;
+    width: 100%;
+    height: 100%;
+    align-items: center;
+    color: hsl(276, 100%, 81%);
+    margin-top: 15px;
+}
+.chd1-chd1 p{
+    margin-left: 20px;
+    margin-right: 5px;
+}
+.chd1-chd1 img{
+    width: 20px;
+    height: 20px;
+    border-radius: 20px;
+    border:1px solid hsl(276, 100%, 81%);
+    margin-right: 10px;
+}
+.person{
+    margin-right: 60px;
+}
+.person h6{
+    margin: 0;
+}
+.person p{
+    font-size: 0.5rem;
+    margin: 0;
+}
+li{
+    margin:-11px ;
+    font-size: 0.8rem;
+}
+
+.text{
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: absolute;
+    top: 250px;
+    left: 800px;
+}
+.text h1{
+    margin-bottom:0;
+    font-weight: 700;
+    color: hsl(271, 36%, 24%);
+}
+.text p{
+    color: hsl(270, 7%, 64%);
+}
+
+.chd2{
+    font-size: 0.6rem;
+    width: 60%;
+    height: 40px;
+    color: hsl(276, 55%, 52%);
+    background-color: hsl(270, 7%, 64%);
+    border-radius: 10px 10px 10px 5px;
+    display: flex;
+    margin: 5px;
+}
+.chd3{
+    font-size: 0.6rem;
+    width: 60%;
+    height: 40px;
+    color: hsl(276, 55%, 52%);
+    background-color: hsl(270, 7%, 64%);
+    border-radius: 10px 10px 10px 5px;
+    display: flex;
+    margin: 5px;
+}
+.chd4{
+    width: 100%;
+    height: 40px;
+    display: flex;
+}
+.chd4-img{
+    width: 60%;
+    height: 100%;
+    display: flex;
+    margin-left: auto;
+    margin-right: 10px;
+}
+.chd4-img img{
+    margin: 0 5px;
+    border-radius: 10px 10px 10px 5px;
+}
+
+.chd5{
+    font-size: 0.6rem;
+    width: 60%;
+    height: 40px;
+    color: hsl(271, 15%, 43%);
+    background-color: hsl(270, 20%, 96%);
+    border-radius: 10px 10px 10px 5px;
+    display: flex;
+    margin: 5px 90px;
+    
+}
+
+.chd6{
+    font-size: 0.6rem;
+    width: 40%;
+    height: 40px;
+    color: hsl(271, 15%, 43%);
+    background-color: hsl(270, 20%, 96%);
+    border-radius: 10px 10px 10px 5px;
+    display: flex;
+    margin: 5px 140px;
+}
+
+.chd8{
+    font-size: 0.6rem;
+    width: 60%;
+    height: 45px;
+    color: hsl(276, 55%, 52%);
+    background-color: hsl(270, 7%, 64%);
+    border-radius: 10px;
+    display: flex;
+    margin: 10px;
+}
+.chd7{
+    font-size: 0.6rem;
+    width: 60%;
+    height: 45px;
+    color: hsl(276, 55%, 52%);
+    background-color: hsl(270, 7%, 64%);
+    border-radius: 10px 10px 10px 5px;
+    display: flex;
+    margin: 5px;
+}
+
+.chd9, .chd8{
+    font-size: 0.6rem;
+    width: 70%;
+    height: 30px;
+    color: hsl(206, 6%, 79%);
+    background: hsl(264,100%,61%);
+    background: linear-gradient(270deg,hsl(264,100%,61%) 40%, hsl(293,100%,63%) 100%);
+    border-radius: 10px 10px 10px 5px;
+    display: flex;
+    align-items: center;
+    margin: 5px;
+    opacity: 0.7;
+    margin-bottom: 12px;
+}
+.chd9 div, .chd8 div{
+    border: 1px solid hsl(270, 7%, 64%);
+    height: 10px;
+    width: 10px;
+    border-radius: 50%;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.chd8 h3{
+    margin-left: 40px;
+ }
+ .chd9 h3{
+     margin-left: 60px;
+  }
+
+.chd10{
+    height: 30px;
+    width: 90%;
+    background-color: white;
+    border-radius: 30px;
+    margin-left: 10px;
+    font-size: 0.6rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+   
+}
+.chd10 > div{
+    width: 25px;
+    height: 25px;
+    background-color: hsl(271, 36%, 24%);
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+}
+.chd10 p{
+    color: hsl(206, 6%, 79%);
+    
+}
+ 
+@media (max-width:375px) {
+  
+    
+    .background{
+        width: 190px;
+        height: 500px;
+    }
+    
+    .mobile{
+        width: 260px;
+        height: 500px;
+        box-shadow: 1px 2px 12px 0px rgba(0,0,0,0.75);
+        position: absolute;
+        top: 90px;
+        left: 50px;
+        background-color: white;
+        border-radius: 40px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .text{
+        width: 90%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        position: absolute;
+        top: 650px;
+        left: 30px;
+        text-align: center;
+    }
+    .person{
+        margin-right: 30px;
+    }
+   
+    
+}
+
